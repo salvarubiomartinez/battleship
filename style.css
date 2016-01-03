@@ -1,0 +1,80 @@
+body {
+    font:76% normal verdana,arial,tahoma;
+    background: grey;
+    overflow:hidden;
+}
+
+table{alignment-adjust: central;
+      margin: 0 auto;
+}
+
+#tablero{
+    width:100%;
+}
+
+#marcador1 {background-color: lightblue}
+#marcador2{background-color: lightcoral}
+
+td {background: white; 
+    padding: 10px;
+    border: 5px solid black;
+    font-size: 2em}
+
+h1, h2 {
+    font-size:1em;
+}
+embed{visibility : hidden}
+#nave1 {
+    /* simple box */
+    position:absolute;   
+    width:20px;
+    height: 20px;
+    line-height:3em;
+    background:blue;
+    border:1px solid #003366;
+    white-space:nowrap
+}
+
+#nave2 {
+    /* simple box */
+    position:absolute;   
+    width:20px;
+    height: 20px;
+    line-height:3em;
+    background:red;
+    border:1px solid #003366;
+    white-space:nowrap
+}
+
+
+
+/*#tablero{
+    position: absolute;
+    left : 10px;
+    top: 10px;
+    width: 500px;
+    height: 400px;
+    line-height:3em;
+    background:gray;
+    border:1px solid #003366;
+}*/
+.bala{
+    position: absolute;
+    left : 10px;
+    top: 10px;
+    width: 1px;
+    height: 1px;
+    line-height:3em;
+    background:black;
+    border:1px solid #003366;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/11/2015, 19:22:45
+    Author     : 38854204m
+*/
+
